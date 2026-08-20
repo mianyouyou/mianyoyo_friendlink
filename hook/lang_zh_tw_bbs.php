@@ -1,0 +1,13 @@
+<?php exit;
+$lang['mfl_title'] = '友情連結';
+$lang['mfl_name'] = '名稱';
+$lang['mfl_url'] = '連結';
+$lang['mfl_icon'] = '圖示 class';
+$lang['mfl_rank'] = '排序';
+$lang['mfl_col_header'] = '頂欄';
+$lang['mfl_col_footer'] = '頁腳';
+$lang['mfl_enable_header'] = '啟用頂欄展示（且條目勾選頂欄）';
+$lang['mfl_enable_footer'] = '啟用頁腳展示（且條目勾選頁腳）';
+$lang['mfl_save_display'] = '儲存展示開關';
+$lang['mfl_add_row'] = '增加一列';
+$lang['mfl_saved'] = '已儲存';

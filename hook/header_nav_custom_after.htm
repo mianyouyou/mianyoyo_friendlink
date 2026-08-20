@@ -1,0 +1,15 @@
+<?php
+$_mfl_header = MianyoyoFriendlinkService::listFor('header');
+if (!empty($_mfl_header)) {
+	foreach ($_mfl_header as $_mfl) {
+?>
+<li class="nav-item" data-active="nav-friendlink-<?php echo intval($_mfl['lid']); ?>">
+	<a class="nav-link transition-colors" href="<?php echo esc_attr($_mfl['url']); ?>" target="_blank" rel="noopener noreferrer">
+		<?php if (!empty($_mfl['icon'])) { ?><i class="<?php echo esc_attr($_mfl['icon']); ?>"></i><?php } ?>
+		<?php echo esc_html($_mfl['name']); ?>
+	</a>
+</li>
+<?php
+	}
+}
+?>

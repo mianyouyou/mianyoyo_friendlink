@@ -1,0 +1,17 @@
+<?php exit;
+$lang['mfl_title'] = '友情链接';
+$lang['mfl_setting_brief'] = '管理站点顶栏与页脚的友情链接，支持排序与分位置展示。';
+$lang['mfl_section_display'] = '展示开关';
+$lang['mfl_section_links'] = '链接列表';
+$lang['mfl_section_links_desc'] = '勾选顶栏/页脚控制单条链接的出现位置；排序值越小越靠前。';
+$lang['mfl_name'] = '名称';
+$lang['mfl_url'] = '链接';
+$lang['mfl_icon'] = '图标 class';
+$lang['mfl_rank'] = '排序';
+$lang['mfl_col_header'] = '顶栏';
+$lang['mfl_col_footer'] = '页脚';
+$lang['mfl_enable_header'] = '启用顶栏展示（且条目勾选顶栏）';
+$lang['mfl_enable_footer'] = '启用页脚展示（且条目勾选页脚）';
+$lang['mfl_save_display'] = '保存展示开关';
+$lang['mfl_add_row'] = '增加一行';
+$lang['mfl_saved'] = '已保存';

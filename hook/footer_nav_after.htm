@@ -1,0 +1,16 @@
+<?php
+$_mfl_footer = MianyoyoFriendlinkService::listFor('footer');
+if (!empty($_mfl_footer)) {
+?>
+<div class="container py-3 mfl-footer">
+	<div class="small text-body-secondary mb-2"><?php echo lang('mfl_title'); ?></div>
+	<div class="d-flex flex-wrap gap-3 small">
+		<?php foreach ($_mfl_footer as $_mfl) { ?>
+		<a class="link-secondary text-decoration-none" href="<?php echo esc_attr($_mfl['url']); ?>" target="_blank" rel="noopener noreferrer">
+			<?php if (!empty($_mfl['icon'])) { ?><i class="<?php echo esc_attr($_mfl['icon']); ?> me-1"></i><?php } ?>
+			<?php echo esc_html($_mfl['name']); ?>
+		</a>
+		<?php } ?>
+	</div>
+</div>
+<?php } ?>

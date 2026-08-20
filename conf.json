@@ -1,0 +1,18 @@
+{
+	"name": "友情链接",
+	"brief": "管理并展示友情链接（页脚 + 可选顶栏），适配 XIUNOX 与资源社主题",
+	"version": "1.0.2",
+	"bbs_version": "1.1",
+	"type": "plugin",
+	"author": "棉悠悠",
+	"hooks_rank": {
+		"model_inc_file.php": 100,
+		"footer_nav_after.htm": 100,
+		"header_nav_custom_after.htm": 100,
+		"lang_zh_cn_bbs.php": 100,
+		"lang_zh_tw_bbs.php": 100,
+		"lang_en_us_bbs.php": 100
+	},
+	"overwrites_rank": {},
+	"dependencies": {}
+}

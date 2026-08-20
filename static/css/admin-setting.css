@@ -1,0 +1,335 @@
+@charset "UTF-8";
+
+/* 棉悠悠插件后台设置页 — 对齐 Zaesky Element 蓝 */
+
+.my-admin-page {
+	max-width: 920px;
+	margin: 0 auto;
+	padding-bottom: 1.5rem;
+}
+
+.my-admin-hero {
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+	padding: 1.25rem 1.35rem;
+	margin-bottom: 1.25rem;
+	border-radius: 10px;
+	background: linear-gradient(135deg, rgba(64, 158, 255, 0.12) 0%, rgba(41, 151, 247, 0.06) 100%);
+	border: 1px solid rgba(64, 158, 255, 0.15);
+}
+
+.my-admin-hero-icon {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	background: #409eff;
+	color: #fff;
+	font-size: 1.35rem;
+	box-shadow: 0 4px 14px rgba(64, 158, 255, 0.35);
+}
+
+.my-admin-hero-title {
+	margin: 0 0 .25rem;
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: #303133;
+	line-height: 1.3;
+}
+
+.my-admin-hero-brief {
+	margin: 0;
+	font-size: .875rem;
+	color: #909399;
+	line-height: 1.55;
+}
+
+.my-admin-page > .nav-tabs {
+	margin: 0 0 1.15rem;
+	padding: 0 .15rem;
+	border-bottom: 0;
+}
+
+.my-admin-page > .nav-tabs .nav-link {
+	border-radius: 8px;
+	padding: .45rem .9rem;
+	font-weight: 600;
+	color: #909399;
+}
+
+.my-admin-page > .nav-tabs .nav-link.active {
+	background: rgba(64, 158, 255, 0.12);
+	color: #409eff;
+}
+
+.my-admin-section {
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+	margin-bottom: 1rem;
+	overflow: hidden;
+}
+
+.my-admin-section-head {
+	display: flex;
+	align-items: flex-start;
+	gap: .75rem;
+	padding: .85rem 1.15rem;
+	background: #f6f7f9;
+	border-bottom: 1px solid #eef0f4;
+}
+
+.my-admin-section-icon {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 8px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(64, 158, 255, 0.12);
+	color: #409eff;
+	font-size: 1rem;
+	flex-shrink: 0;
+}
+
+.my-admin-section-title {
+	font-weight: 600;
+	font-size: .95rem;
+	color: #303133;
+	line-height: 1.35;
+}
+
+.my-admin-section-desc {
+	margin-top: .15rem;
+	font-size: .78rem;
+	color: #909399;
+	line-height: 1.45;
+}
+
+.my-admin-section-body {
+	padding: 1.1rem 1.15rem 1.15rem;
+}
+
+.my-admin-form .form-label {
+	font-size: .8125rem;
+	font-weight: 600;
+	color: #606266;
+	margin-bottom: .35rem;
+}
+
+.my-admin-form .form-control,
+.my-admin-form .form-select {
+	border-radius: 8px;
+	border-color: #dcdfe6;
+	font-size: .875rem;
+}
+
+.my-admin-form .form-control:focus,
+.my-admin-form .form-select:focus {
+	border-color: #409eff;
+	box-shadow: 0 0 0 3px rgba(64, 158, 255, 0.12);
+}
+
+.my-admin-form .form-text {
+	font-size: .75rem;
+	color: #909399;
+	margin-top: .35rem;
+}
+
+.my-admin-switch-row {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: .65rem 0;
+	border-bottom: 1px solid #f0f2f5;
+}
+
+.my-admin-switch-row:last-child {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+
+.my-admin-switch-row:first-child {
+	padding-top: 0;
+}
+
+.my-admin-switch-label {
+	font-size: .875rem;
+	font-weight: 500;
+	color: #303133;
+	margin-bottom: .1rem;
+}
+
+.my-admin-switch-hint {
+	font-size: .75rem;
+	color: #909399;
+	line-height: 1.45;
+}
+
+.my-admin-switch-row .form-check-input {
+	width: 2.5rem;
+	height: 1.25rem;
+	margin-top: .15rem;
+	cursor: pointer;
+}
+
+.my-admin-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: .85rem 1rem;
+}
+
+@media (min-width: 768px) {
+	.my-admin-grid.cols-4 {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+}
+
+.my-admin-hint {
+	padding: .65rem .85rem;
+	margin-bottom: 1rem;
+	border-radius: 8px;
+	background: #f4f8ff;
+	border: 1px solid rgba(64, 158, 255, 0.18);
+	color: #606266;
+	font-size: .8125rem;
+	line-height: 1.55;
+}
+
+.my-admin-submit-bar {
+	position: sticky;
+	bottom: 0;
+	z-index: 20;
+	margin-top: 1.25rem;
+	padding: .85rem 1rem;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.92);
+	border: 1px solid #eef0f4;
+	box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.06);
+	backdrop-filter: blur(8px);
+}
+
+.my-admin-submit-bar .btn-primary {
+	background: #409eff;
+	border-color: #409eff;
+	border-radius: 8px;
+	font-weight: 600;
+}
+
+.my-admin-submit-bar .btn-primary:hover {
+	background: #006fe6;
+	border-color: #006fe6;
+}
+
+.my-admin-table-wrap {
+	border: 1px solid #eef0f4;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.my-admin-table-wrap .table {
+	margin-bottom: 0;
+	font-size: .8125rem;
+}
+
+.my-admin-table-wrap .table thead th {
+	background: #f6f7f9;
+	font-weight: 600;
+	color: #606266;
+	border-bottom: 1px solid #eef0f4;
+	white-space: nowrap;
+}
+
+.my-admin-table-wrap .table tbody td {
+	vertical-align: middle;
+	border-color: #f3f4f6;
+}
+
+.my-admin-table-wrap .form-control-sm {
+	border-radius: 6px;
+}
+
+.my-admin-toolbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: .75rem;
+	margin-bottom: .85rem;
+}
+
+.my-admin-badge {
+	display: inline-flex;
+	align-items: center;
+	padding: .2rem .55rem;
+	border-radius: 999px;
+	font-size: .72rem;
+	font-weight: 600;
+}
+
+.my-admin-badge.ok {
+	background: rgba(103, 194, 58, 0.12);
+	color: #67c23a;
+}
+
+.my-admin-badge.bad {
+	background: rgba(245, 108, 108, 0.12);
+	color: #f56c6c;
+}
+
+.my-admin-badge.muted {
+	background: #f2f3f5;
+	color: #909399;
+}
+
+@media (max-width: 767.98px) {
+	.my-admin-grid,
+	.my-admin-grid.cols-4 {
+		grid-template-columns: 1fr;
+	}
+
+	.my-admin-hero {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.my-admin-submit-bar {
+		position: static;
+	}
+}
+
+[data-bs-theme="dark"] .my-admin-hero {
+	background: linear-gradient(135deg, rgba(64, 158, 255, 0.18) 0%, rgba(41, 151, 247, 0.08) 100%);
+	border-color: rgba(64, 158, 255, 0.22);
+}
+
+[data-bs-theme="dark"] .my-admin-hero-title,
+[data-bs-theme="dark"] .my-admin-section-title,
+[data-bs-theme="dark"] .my-admin-switch-label {
+	color: #e5e7eb;
+}
+
+[data-bs-theme="dark"] .my-admin-section-head {
+	background: #1a1d24;
+	border-bottom-color: #2a2f3a;
+}
+
+[data-bs-theme="dark"] .my-admin-submit-bar {
+	background: rgba(22, 26, 34, 0.92);
+	border-color: #2a2f3a;
+}
+
+[data-bs-theme="dark"] .my-admin-table-wrap {
+	border-color: #2a2f3a;
+}
+
+[data-bs-theme="dark"] .my-admin-table-wrap .table thead th {
+	background: #1a1d24;
+	color: #9ca3af;
+	border-bottom-color: #2a2f3a;
+}

@@ -1,0 +1,13 @@
+<?php exit;
+$lang['mfl_title'] = 'Friend Links';
+$lang['mfl_name'] = 'Name';
+$lang['mfl_url'] = 'URL';
+$lang['mfl_icon'] = 'Icon class';
+$lang['mfl_rank'] = 'Rank';
+$lang['mfl_col_header'] = 'Header';
+$lang['mfl_col_footer'] = 'Footer';
+$lang['mfl_enable_header'] = 'Enable header display';
+$lang['mfl_enable_footer'] = 'Enable footer display';
+$lang['mfl_save_display'] = 'Save display options';
+$lang['mfl_add_row'] = 'Add row';
+$lang['mfl_saved'] = 'Saved';
